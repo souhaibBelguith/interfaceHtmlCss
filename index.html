@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+<!-- Demo http://first-cnx-ahmedoualipro623710.codeanyapp.com/ -->
+
+<head>
+	<title>UI V0.1</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- ######### CSS STYLES ######### -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/footer.css" type="text/css" />
+	<link rel="stylesheet" href="css/header.css" type="text/css" />
+
+
+	<link href="./agenda-views_files/fullcalendar.min.css" rel="stylesheet">
+	<link href="./agenda-views_files/fullcalendar.print.min.css" rel="stylesheet" media="print">
+	<link rel="stylesheet" href="css/button-plus.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<header>
+		<div class="navbar">
+			<div class="dropdown">
+				<button class="dropbtn">Menu 
+			  <i class="fa fa-caret-down"></i>
+			</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+
+			<div class="navbar2">
+				<div class="dropdown2">
+					<button class="dropbtn2"> 
+			  <i class="fa fa fa-cogs"></i>
+			</button>
+					<div class="dropdown-content2">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+				<div class="header-style">
+					SopraHr
+				</div>
+			</div>
+
+
+	</header>
+
+
+	<section id="content">
+		<div id="calendar" class="fc fc-unthemed fc-ltr">
+
+			<div class="fc-view-container" style="">
+				<div class="fc-view fc-month-view fc-basic-view" style="">
+					<!-- =============== grand table =============== -->
+					<table class="">
+						<thead class="fc-head">
+							<tr>
+								<td class="fc-head-container fc-widget-header">
+									<div class="fc-row fc-widget-header">
+										<!-- ===============  table  =============== -->
+										<table class="">
+											<!-- =============== thead du grand table =============== -->
+											<thead>
+												<tr>
+													<th class="fc-day-header fc-widget-header fc-sun">
+														<span></span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-sun">
+														<span>Lun</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-mon">
+														<span>Mar</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-tue">
+														<span>Mer</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-wed">
+														<span>Jeu</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-thu">
+														<span>Ven</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-fri">
+														<span>Sam</span>
+													</th>
+													<th class="fc-day-header fc-widget-header fc-sat">
+														<span>Dim</span>
+													</th>
+												</tr>
+											</thead>
+										</table>
+									</div>
+								</td>
+							</tr>
+						</thead>
+						<tbody class="fc-body">
+							<tr>
+								<td class="fc-widget-content">
+									<div class="fc-scroller fc-day-grid-container" style="overflow: hidden; height: 648px;">
+										<div class="fc-day-grid fc-unselectable">
+											<div class="fc-row fc-week fc-widget-content fc-rigid" style="height: 108px;">
+												<div class="fc-bg">
+													<table class="">
+														<tbody>
+															<tr>
+																<td class="fc-day fc-widget-content fc-sun fc-other-month fc-past" data-date="2018-01-28">
+																</td>
+																<td class="fc-day fc-widget-content fc-sun fc-other-month fc-past" data-date="2018-01-28">
+																</td>
+																<td class="fc-day fc-widget-content fc-mon fc-other-month fc-past" data-date="2018-01-29">
+																</td>
+																<td class="fc-day fc-widget-content fc-tue fc-other-month fc-past" data-date="2018-01-30">
+																</td>
+																<td class="fc-day fc-widget-content fc-wed fc-other-month fc-past" data-date="2018-01-31">
+																</td>
+																<td class="fc-day fc-widget-content fc-thu fc-past" data-date="2018-02-01">
+																</td>
+																<td class="fc-day fc-widget-content fc-fri fc-past" data-date="2018-02-02">
+																</td>
+																<td class="fc-day fc-widget-content fc-sat fc-past" data-date="2018-02-03">
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="fc-content-skeleton">
+													<table>
+														<thead>
+															<tr>
+																<td> </td>
+																<td class="fc-day-top fc-sun fc-other-month fc-past" data-date="2018-01-28">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-01-28&quot;,&quot;type&quot;:&quot;day&quot;}">28</a>
+																</td>
+																<td class="fc-day-top fc-mon fc-other-month fc-past" data-date="2018-01-29">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-01-29&quot;,&quot;type&quot;:&quot;day&quot;}">29</a>
+																</td>
+																<td class="fc-day-top fc-tue fc-other-month fc-past" data-date="2018-01-30">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-01-30&quot;,&quot;type&quot;:&quot;day&quot;}">30</a>
+																</td>
+																<td class="fc-day-top fc-wed fc-other-month fc-past" data-date="2018-01-31">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-01-31&quot;,&quot;type&quot;:&quot;day&quot;}">31</a>
+																</td>
+																<td class="fc-day-top fc-thu fc-past" data-date="2018-02-01">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-01&quot;,&quot;type&quot;:&quot;day&quot;}">1</a>
+																</td>
+																<td class="fc-day-top fc-fri fc-past" data-date="2018-02-02">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-02&quot;,&quot;type&quot;:&quot;day&quot;}">2</a>
+																</td>
+																<td class="fc-day-top fc-sat fc-past" data-date="2018-02-03">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-03&quot;,&quot;type&quot;:&quot;day&quot;}">3</a>
+																</td>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="mois"> M</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td class="fc-event-container">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable">
+																		<div class="fc-content">
+																			<span class="fc-title">Nesrine Jemai</span>
+																		</div>
+																		<div class="fc-resizer fc-end-resizer">
+																		</div>
+																	</a>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="fc-row fc-week fc-widget-content fc-rigid" style="height: 108px;">
+												<div class="fc-bg">
+													<table class="">
+														<tbody>
+															<tr>
+																<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2018-02-04"></td>
+																<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2018-02-04"></td>
+																<td class="fc-day fc-widget-content fc-mon fc-past" data-date="2018-02-05"></td>
+																<td class="fc-day fc-widget-content fc-tue fc-past " data-date="2018-02-06"></td>
+																<td class="fc-day fc-widget-content fc-wed fc-today" data-date="2018-02-07"></td>
+																<td class="fc-day fc-widget-content fc-thu fc-future" data-date="2018-02-08"></td>
+																<td class="fc-day fc-widget-content fc-fri fc-future" data-date="2018-02-09"></td>
+																<td class="fc-day fc-widget-content fc-sat fc-future" data-date="2018-02-10"></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="fc-content-skeleton">
+													<table>
+														<thead>
+															<tr>
+																<td class="meerg"> </td>
+																<td class="fc-day-top fc-sun fc-past" data-date="2018-02-04">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-04&quot;,&quot;type&quot;:&quot;day&quot;}">4</a>
+																</td>
+																<td class="fc-day-top fc-mon fc-past" data-date="2018-02-05">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-05&quot;,&quot;type&quot;:&quot;day&quot;}">5</a>
+																</td>
+																<td class="fc-day-top fc-tue fc-today " data-date="2018-02-06">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-06&quot;,&quot;type&quot;:&quot;day&quot;}">6</a>
+																</td>
+																<td class="fc-day-top fc-wed fc-future" data-date="2018-02-07">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-07&quot;,&quot;type&quot;:&quot;day&quot;}">7</a>
+																</td>
+																<td class="fc-day-top fc-thu fc-future" data-date="2018-02-08">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-08&quot;,&quot;type&quot;:&quot;day&quot;}">8</a>
+																</td>
+																<td class="fc-day-top fc-fri fc-future" data-date="2018-02-09">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-09&quot;,&quot;type&quot;:&quot;day&quot;}">9</a>
+																</td>
+																<td class="fc-day-top fc-sat fc-future" data-date="2018-02-10">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-10&quot;,&quot;type&quot;:&quot;day&quot;}">10</a>
+																</td>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="mois" rowspan="2">A</td>
+																<td rowspan="2"></td>
+																<td rowspan="2"></td>
+																<td rowspan="2"></td>
+																<td class="fc-event-container" colspan="3">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable">
+																		<div class="fc-content">
+																			<span class="fc-title">Ahmed Ouali</span>
+																		</div>
+																		<div class="fc-resizer fc-end-resizer">
+																		</div>
+																	</a>
+																</td>
+																<td rowspan="2">
+																</td>
+															</tr>
+															<tr>
+																<td>
+																</td>
+																<td>
+																</td>
+
+																<td class="fc-event-container">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Souhaib Belguith</span>
+																		</div>
+																	</a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="fc-row fc-week fc-widget-content fc-rigid" style="height: 108px;">
+												<div class="fc-bg">
+													<table class="">
+														<tbody>
+															<tr>
+																<td class="fc-day fc-widget-content fc-sun fc-future" data-date="2018-02-11"></td>
+																<td class="fc-day fc-widget-content fc-sun fc-future" data-date="2018-02-11"></td>
+																<td class="fc-day fc-widget-content fc-mon fc-future" data-date="2018-02-12"></td>
+																<td class="fc-day fc-widget-content fc-tue fc-future" data-date="2018-02-13"></td>
+																<td class="fc-day fc-widget-content fc-wed fc-future" data-date="2018-02-14"></td>
+																<td class="fc-day fc-widget-content fc-thu fc-future" data-date="2018-02-15"></td>
+																<td class="fc-day fc-widget-content fc-fri fc-future" data-date="2018-02-16"></td>
+																<td class="fc-day fc-widget-content fc-sat fc-future" data-date="2018-02-17"></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="fc-content-skeleton">
+													<table>
+														<thead>
+															<tr>
+																<td class="meerg "></td>
+																<td class="fc-day-top fc-sun fc-future" data-date="2018-02-11">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-11&quot;,&quot;type&quot;:&quot;day&quot;}">11</a>
+																</td>
+																<td class="fc-day-top fc-mon fc-future" data-date="2018-02-12">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-12&quot;,&quot;type&quot;:&quot;day&quot;}">12</a>
+																</td>
+																<td class="fc-day-top fc-tue fc-future" data-date="2018-02-13">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-13&quot;,&quot;type&quot;:&quot;day&quot;}">13</a>
+																</td>
+																<td class="fc-day-top fc-wed fc-future" data-date="2018-02-14">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-14&quot;,&quot;type&quot;:&quot;day&quot;}">14</a>
+																</td>
+																<td class="fc-day-top fc-thu fc-future" data-date="2018-02-15">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-15&quot;,&quot;type&quot;:&quot;day&quot;}">15</a>
+																</td>
+																<td class="fc-day-top fc-fri fc-future" data-date="2018-02-16">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-16&quot;,&quot;type&quot;:&quot;day&quot;}">16</a>
+																</td>
+																<td class="fc-day-top fc-sat fc-future" data-date="2018-02-17">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-17&quot;,&quot;type&quot;:&quot;day&quot;}">17</a>
+																</td>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="mois">R</td>
+																<td class="fc-event-container" colspan="2">
+
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable fc-resizable">
+																		<div class="fc-content">
+																			<span class="fc-title">Mohamed Thabet</span>
+																		</div>
+																		<div class="fc-resizer fc-end-resizer">
+																		</div>
+																	</a>
+																</td>
+																<td class="fc-event-container" rowspan="6">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Souhaib Belguith</span>
+																		</div>
+																	</a>
+																</td>
+																<td rowspan="6">
+																</td>
+																<td rowspan="6">
+																</td>
+																<td class="fc-event-container" rowspan="6">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Ahmed Ouali</span>
+																		</div>
+																	</a>
+																</td>
+																<td rowspan="6"></td>
+															</tr>
+															<tr>
+																<td rowspan="5"></td>
+																<td class="fc-event-container">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Nesrine Jemai</span>
+																		</div>
+																	</a>
+																</td>
+															</tr>
+
+															<tr>
+																<td class="fc-event-container fc-limited">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+																			<span class="fc-title">Nesrine Jemai</span>
+																		</div>
+																	</a>
+																</td>
+																<td class="fc-more-cell" rowspan="1">
+																	<div>
+
+																	</div>
+																</td>
+															</tr>
+															<tr class="fc-limited">
+																<td class="fc-event-container">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Amin Ghorbel</span>
+																		</div>
+																	</a>
+																</td>
+															</tr>
+															<tr class="fc-limited">
+																<td class="fc-event-container">
+																	<a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable">
+																		<div class="fc-content">
+
+																			<span class="fc-title">Ahmed Ouali</span>
+																		</div>
+																	</a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="fc-row fc-week fc-widget-content fc-rigid" style="height: 108px;">
+												<div class="fc-bg">
+													<table class="">
+														<tbody>
+															<tr>
+																<td class="fc-day fc-widget-content fc-sun fc-future" data-date="2018-02-18">
+																</td>
+																<td class="fc-day fc-widget-content fc-sun fc-future" data-date="2018-02-18">
+																</td>
+																<td class="fc-day fc-widget-content fc-mon fc-future" data-date="2018-02-19">
+																</td>
+																<td class="fc-day fc-widget-content fc-tue fc-future" data-date="2018-02-20">
+																</td>
+																<td class="fc-day fc-widget-content fc-wed fc-future" data-date="2018-02-21">
+																</td>
+																<td class="fc-day fc-widget-content fc-thu fc-future" data-date="2018-02-22">
+																</td>
+																<td class="fc-day fc-widget-content fc-fri fc-future" data-date="2018-02-23">
+																</td>
+																<td class="fc-day fc-widget-content fc-sat fc-future" data-date="2018-02-24">
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="fc-content-skeleton">
+													<table>
+														<thead>
+															<tr>
+																<td class="meerg "></td>
+																<td class="fc-day-top fc-sun fc-future" data-date="2018-02-18">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-18&quot;,&quot;type&quot;:&quot;day&quot;}">18</a>
+																</td>
+																<td class="fc-day-top fc-mon fc-future" data-date="2018-02-19">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-19&quot;,&quot;type&quot;:&quot;day&quot;}">19</a>
+																</td>
+																<td class="fc-day-top fc-tue fc-future" data-date="2018-02-20">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-20&quot;,&quot;type&quot;:&quot;day&quot;}">20</a>
+																</td>
+																<td class="fc-day-top fc-wed fc-future" data-date="2018-02-21">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-21&quot;,&quot;type&quot;:&quot;day&quot;}">21</a>
+																</td>
+																<td class="fc-day-top fc-thu fc-future" data-date="2018-02-22">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-22&quot;,&quot;type&quot;:&quot;day&quot;}">22</a>
+																</td>
+																<td class="fc-day-top fc-fri fc-future" data-date="2018-02-23">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-23&quot;,&quot;type&quot;:&quot;day&quot;}">23</a>
+																</td>
+																<td class="fc-day-top fc-sat fc-future" data-date="2018-02-24">
+																	<a class="fc-day-number" data-goto="{&quot;date&quot;:&quot;2018-02-24&quot;,&quot;type&quot;:&quot;day&quot;}">24</a>
+																</td>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="mois">S
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+																<td>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+											<div class="fc-row fc-week fc-widget-content fc-rigid" style="height: 108px;">
+												<div class="fc-bg">
+													<table class="">
+														<tbody>
+															<tr>
+								</td>
+								<td>
+									</tr>
+									</tbody>
+									</table>
+									</div>
+									</div>
+
+					</table>
+					</div>
+
+	</section>
+
+	<!-- *************************** footer *************************** -->
+	<a href="http://example.com" class="round-button">+</a>
+	<footer>
+		<!--<div class="footer-style">
+			Copyright SopraHr 2018
+		</div>-->
+		<div class="menu  ">
+			<ul>
+				<li><a class="drop" href="../menu/index.html">Mon equipe</a>
+					<ul>
+						<li><a href="../menu/zero_dollars.html" title="The zero dollar ads page">Nesrine Jemai</a></li>
+						<li><a class="drop" href="../menu/nodots.html" title="Removing active/focus borders">Mohamed Thabet</a>
+							<ul>
+								<li><a href="../menu/form.html" title="Styling forms">go</a></li>
+								<li><a href="../menu/nodots.html" title="Removing active/focus borders">dont go</a>
+									<ul>
+										<li><a href="#nogo">yes </a></li>
+										<li><a href="#nogo">no</a></li>
+										<li><a href="#nogo">yes no</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="../menu/embed.html" title="Wrapping text around images">Souhaib Belguith</a></li>
+						<li><a href="../menu/form.html" title="Styling forms">Ahmed Ouali</a></li>
+					</ul>
+				</li>
+				<li><a href="../boxes/index.html">Type de congé</a>
+					<ul>
+						<li><a href="spies.html" title="a coded list of spies">Annuel</a></li>
+						<li><a href="vertical.html" title="a horizontal vertical menu">Maternité </a></li>
+						<li><a href="expand.html" title="an enlarging unordered list">Maladie</a></li>
+					</ul>
+				</li>
+
+				<li><a href="../ie/index.html">Type d'affichage</a>
+					<ul>
+						<li><a href="../ie/exampleone.html" title="Example one">Compact</a></li>
+						<li><a href="../ie/weft.html" title="Weft fonts">No compact</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	</body>
